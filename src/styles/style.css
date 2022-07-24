@@ -1,0 +1,67 @@
+
+.navbar {
+    padding: 40px;
+    background: transparent;
+    z-index: 3;
+}
+.navbar-brand{
+    padding-right: 200px;
+    padding-left: 70px;
+    color: #333333;
+    font-weight: 500;
+    font-size: 18px;
+}
+.nav-link {
+    color:#333333;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.right-nav {
+    margin-right: 120px;
+}
+.bx-shopping-bag {
+    font-size: 21px;
+    color: #333333;
+}
+
+/*........HERO........*/
+
+.left-hero {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.left-hero h2 {
+    font-weight: 600;
+    font-size: 44px;
+    color: #FF922C;
+}
+.left-hero p {
+    font-weight: 500;
+    font-size: 36px;
+    color: #333333;
+}
+.left-hero .left-hero-text {
+    font-weight: 400;
+    font-size: 13px;
+    color: #333333;
+}
+.left-hero .order button {
+    width: 163px;
+    height: 48px;
+    background: #FF922C;
+    border: 1px solid #FF922C;
+    box-shadow: 0px 20px 40px #F4E2D1;
+    border-radius: 69px;
+}
+.circle {
+    z-index: 1;
+    position: absolute;
+    border-radius: 50%;
+    width: 1177px;
+    height: 1177px;
+    top: -600px;
+    right: -100px;
+    background: #FFEEDE;
+}
