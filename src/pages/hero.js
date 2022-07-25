@@ -1,8 +1,9 @@
-import React, {Component} from "react";
+import React from "react";
+import '../styles/styles.scss';
+import Spin from "./spin";
 
- class Hero extends Component {
+ function Hero() {
 
-     render() {
          return (
              <div className="hero d-flex">
                  <div className="container">
@@ -18,14 +19,11 @@ import React, {Component} from "react";
                      </div>
                      <div className="right-hero">
                          <div className="circle">
-
+                             <Spin />
                          </div>
                      </div>
                  </div>
              </div>
          );
-     }
-
-
 }
 export default Hero;
