@@ -81,6 +81,9 @@ class Spin extends Component {
         }));
     };
 
+          centerDisplay = () => {
+
+          }
     getCssClass = id => {
         const { centerItem, nextItem, prevItem } = this.state;
 
@@ -113,6 +116,7 @@ class Spin extends Component {
                                style={{ transform: `rotate(${this.state.itemDeg}deg)` }}
                         />
                     ))}
+                    <img className="center-img" src={require('../assets/image11.png')} alt=""/>
                 </div>
             </div>
         );
